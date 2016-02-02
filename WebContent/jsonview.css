@@ -21,6 +21,8 @@ body {
 
 .type-string {
   color: green;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .callback-function {
