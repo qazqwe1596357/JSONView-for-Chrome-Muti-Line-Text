@@ -28,8 +28,13 @@ This change let the muti-line string display normaly.
 Addition Note:
 ----
 安装方法
+
 【Chrome】-【设置】-左侧【拓展程序】
+ 
  将 JSONView-MutiLineDisp.crx 文件拖拽到 Chrome 中，
+ 
+ 勾选【开发者模式】
+ 
  弹出对话框选择确认即可完成安装。
 
 
