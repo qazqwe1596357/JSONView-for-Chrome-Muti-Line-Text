@@ -110,6 +110,7 @@ if (localStorage.options)
 	options = JSON.parse(localStorage.options);
 if (typeof options.addContextMenu == "undefined") {
 	options.addContextMenu = true;
+	options.injectInFrame = true;
 	localStorage.options = JSON.stringify(options);
 }
 
