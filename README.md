@@ -13,12 +13,18 @@ Note:
 
 Fork from gildas-lormeau/JSONView-for-Chrome
 
+change 1:
 Change the ./WebContent/jsonview.css, wihch changed below:
 .type-string {
   color: green;
   word-wrap: break-word;
   white-space: pre-wrap;
 }
+
+change 2:
+Change the ./WebContent/background.js 
+line 113 : add options.injectInFrame = true;
+change the default parameter to enable iframe JSON parse.
 
 This change let the muti-line string display normaly.
 
